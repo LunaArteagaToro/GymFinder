@@ -1,0 +1,72 @@
+{
+    "usuarios": [
+      {
+        "tipo": "administrador",
+        "NombreUsuario": "nombre_administrador",
+        "contraseña": "contraseña_administrador",
+        "email": "correo_administrador"
+      },
+      {
+        "tipo": "propietario",
+        "id_propietario": 1,
+        "NombreUsuario": "nombre_propietario",
+        "contraseña": "contraseña_propietario",
+        "email": "correo_propietario",
+        "telefono": 123456789
+      },
+      {
+        "tipo": "estandar",
+        "id_estandar": 1,
+        "NombreUsuario": "nombre_usuario_estandar",
+        "Nombre": "nombre_estandar",
+        "Apellidos": "apellidos_estandar",
+        "contraseña": "contraseña_estandar",
+        "email": "correo_estandar"
+      }
+    ],
+    "gimnasios": [
+      {
+        "id_gimnasio": 1,
+        "Nombre_gimnasio": "nombre_gimnasio",
+        "direccionCompleta_gimnasio": "direccion_gimnasio",
+        "Servicios": [
+          {
+            "nombre": "Piscina",
+            "actividades": ["NatacionLibre", "Aquagym", "Clases de natación", "ClubDNatacion"]
+          },
+          {
+            "nombre": "ActividadesGrupales",
+            "actividades": ["Zumba", "Pilates", "Yoga", "Spinning"]
+          },
+          {
+            "nombre": "EntrenamientoPersonal",
+            "actividades": ["EntrenadorPersonal", "TablaDeEntrenamiento","FoodCoaching"]
+          },
+          {
+            "nombre": "Maquinas",
+            "actividades": ["CintaDeCorrer","BicicletasEstaticas","BiciletasElipticas", "MultiEstacion","PrensaDePierna","MaquinaDeAductor","MaquinaDeFemorales","EquipodeEntrenamientodePesoLibre","predicador","PeckCherck","Multipower/Smith", "Abdominales", "ExtensionCuadriceps", "BancoLumbar", "Equipos de calistenia"]
+          }
+        ],
+        "Precio_minimo_Mensual": 50,
+        "Imagenes": ["url_imagen1", "url_imagen2"],
+        "horario": "horario_gimnasio"
+      }
+    ],
+    "reseñas": [
+      {
+        "id_reseñas": 1,
+        "valoracion": 4,
+        "comentario": "Comentario sobre el gimnasio",
+        "fecha": "fecha_reseña",
+        "respuesta_comentario": "Respuesta del propietario"
+      }
+    ],
+    "favoritos": [
+      {
+        "id_usuario_estandar": 1,
+        "id_gimnasio": 1,
+        "fecha_favorito": "fecha_favorito"
+      }
+    ]
+  }
+  
